@@ -1,0 +1,9 @@
+flask
+flask-socketio
+eventlet
+requests
+kaggle
+gunicorn
+flask_cors
+
+
