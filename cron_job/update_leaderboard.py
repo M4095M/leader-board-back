@@ -2,7 +2,7 @@ import requests
 
 def update_leaderboard():
     # Replace with your deployed backend URL; for local testing, use http://127.0.0.1:5001
-    url = "https://leader-board-back.onrender.com/api/update_leaderboard"
+    url = "http://127.0.0.1:5001/api/update_leaderboard"
     try:
         response = requests.post(url)
         if response.status_code == 200:
